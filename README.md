@@ -1,6 +1,6 @@
 # npmtest-formsy-react
 
-#### test coverage for  [formsy-react (v0.19.2)](https://github.com/christianalfoni/formsy-react#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-formsy-react.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-formsy-react) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-formsy-react.svg)](https://travis-ci.org/npmtest/node-npmtest-formsy-react)
+#### basic test coverage for  [formsy-react (v0.19.2)](https://github.com/christianalfoni/formsy-react#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-formsy-react.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-formsy-react) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-formsy-react.svg)](https://travis-ci.org/npmtest/node-npmtest-formsy-react)
 
 #### A form input builder and validator for React JS
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-formsy-react/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-formsy-react/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-formsy-react/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-formsy-react/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-formsy-react/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-formsy-react/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-formsy-react/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-formsy-react/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-formsy-react/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-formsy-react/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-formsy-react/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-formsy-react/build/coverage.html/index.html)
 
@@ -103,7 +103,8 @@
         "prepublish": "babel ./src/ -d ./lib/",
         "test": "babel-node testrunner"
     },
-    "version": "0.19.2"
+    "version": "0.19.2",
+    "bin": {}
 }
 ```
 
